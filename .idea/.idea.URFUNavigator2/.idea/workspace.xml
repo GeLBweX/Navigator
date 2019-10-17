@@ -1,40 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="028f986d-64b7-4006-b5ff-75a2b6d76b5d" name="Default Changelist" comment="" />
+    <list default="true" id="028f986d-64b7-4006-b5ff-75a2b6d76b5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/599589BF-4CE2-4890-9B8A-14CBE4A2034E/01/56d4f9e0/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Floor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/93/8cfece8b/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FBB5ED17-EB6E-46C6-8000-0F8910EBB50C/2c/381756a4/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PathShowerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/41/99bc2e7a/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C5DC6B49-17B2-4E94-AE43-1E2D91EEAD2C/6a/e47a7c0b/Canvas.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DirectionsEnum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FBB5ED17-EB6E-46C6-8000-0F8910EBB50C/61/a3ae88cf/HashSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/46/cfa1b980/RenderPipelineManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/599589BF-4CE2-4890-9B8A-14CBE4A2034E/46/2178e46c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/599589BF-4CE2-4890-9B8A-14CBE4A2034E/be/5321071a/GenericEqualityComparer`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C254D6BD-DEE2-4EDB-8742-CD1C78B0DB19/48/ef733a83/ScriptableRuntimeReflectionSystemWrapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/599589BF-4CE2-4890-9B8A-14CBE4A2034E/5e/ec0264f7/Single.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/509C587A-3371-4222-B5E8-1666B5099AF1/7e/1fd80488/Event.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/599589BF-4CE2-4890-9B8A-14CBE4A2034E/01/56d4f9e0/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Dungeon.csproj/SinglyLinkedList.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Dungeon.csproj/BfsTask.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PathShowerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Dungeon.csproj/MoveDirection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Dungeon.csproj/Dungeon_Should.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/599589BF-4CE2-4890-9B8A-14CBE4A2034E/46/2178e46c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Dungeon.csproj/Map.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SinglyLinkedList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/599589BF-4CE2-4890-9B8A-14CBE4A2034E/b2/1646d31d/EqualityComparer`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/599589BF-4CE2-4890-9B8A-14CBE4A2034E/5e/ec0264f7/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/509C587A-3371-4222-B5E8-1666B5099AF1/7e/1fd80488/Event.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,16 +54,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DirectionsEnum.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PathShowerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Floor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Map.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UiController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Map.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1S7QKvOKf1N3yFTjHOcgjKZeubs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -79,10 +92,10 @@
     </option>
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="21256">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="77144">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="21256" />
+      <option name="pid" value="77144" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -108,6 +121,11 @@
       <workItem from="1570947291925" duration="7768000" />
       <workItem from="1571065757534" duration="5418000" />
       <workItem from="1571148317327" duration="1060000" />
+      <workItem from="1571292430616" duration="28000" />
+      <workItem from="1571318905987" duration="1018000" />
+      <workItem from="1571324434204" duration="3186000" />
+      <workItem from="1571329915822" duration="1890000" />
+      <workItem from="1571336226075" duration="1829000" />
     </task>
     <servers />
   </component>
@@ -116,6 +134,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
@@ -140,30 +171,56 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/MovementController.cs</url>
-          <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" initialLine="19">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Map.cs</url>
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" initialLine="33">
             <startOffsets>
-              <option value="610" />
+              <option value="1252" />
             </startOffsets>
             <endOffsets>
-              <option value="656" />
+              <option value="1300" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/MovementController.cs</url>
-          <line>27</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" initialLine="27">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Map.cs</url>
+          <line>62</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" initialLine="51">
+            <startOffsets>
+              <option value="2010" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2033" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Map.cs</url>
+          <line>65</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" initialLine="54">
+            <startOffsets>
+              <option value="2176" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2216" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Map.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" initialLine="23">
             <startOffsets>
               <option value="783" />
             </startOffsets>
             <endOffsets>
-              <option value="826" />
+              <option value="783" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

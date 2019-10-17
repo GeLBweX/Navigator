@@ -21,12 +21,23 @@ public class Map : MonoBehaviour
         }
     }
 
-    public static Cell GetCell(string cellName) => _floors[_floorIndex].GetCellByName(cellName);
+    public static Cell GetCell(string cellName)
+    {
+        foreach (var floor in _floors)
+        {
+            var cell = floor.GetCellByName(cellName);
+            if (cell)
+                return cell;
+        }
+
+        return _floors[0].GetCellByCoord(new Vector3Int(0, 0, 0));
+    }
+
     public static Cell GetCell(Vector3Int coord) => _floors[coord.z].GetCellByCoord(coord);
 
     public static Vector3Int ConvertGlobalPosToMapPos(Vector3 pos, int floor)
     {
-        return new Vector3Int((int) (pos.x / Map.CellSize), (int) (pos.y / Map.CellSize), floor);
+        return new Vector3Int(Mathf.RoundToInt (pos.x / Map.CellSize), Mathf.RoundToInt (pos.y / Map.CellSize), floor);
     }
 
     public static SinglyLinkedList<Vector3Int> FindPath(Vector3Int start, Vector3Int final)
@@ -62,9 +73,9 @@ public class Map : MonoBehaviour
     public static Floor GetFloor() => _floors[_floorIndex];
     public static void ChangeFloor(Vector3Int final)
     {
-        _floors[_floorIndex].GetFloorTransform().gameObject.SetActive(false);
+        _floors[_floorIndex].GetFloorTransform().root.gameObject.SetActive(false);
         _floorIndex = final.z;
-        _floors[_floorIndex].GetFloorTransform().gameObject.SetActive(true);
+        _floors[_floorIndex].GetFloorTransform().root.gameObject.SetActive(true);
     }
 
     public static bool IsOnStairs(Vector3Int pos)

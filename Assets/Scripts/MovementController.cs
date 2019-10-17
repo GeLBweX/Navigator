@@ -77,4 +77,10 @@ public class MovementController : MonoBehaviour
         _finish = Map.GetCell(roomName).GetVector3();
         print(_finish);
     }
+
+    public void ChangeSpeed(float changeCount)
+    {
+        stepTime += changeCount;
+        stepTime = Mathf.Clamp(stepTime, 0, 1);
+    }
 }
