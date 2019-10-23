@@ -833,6 +833,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstFloor
       objectReference: {fileID: 0}
+    - target: {fileID: 1095622041793837798, guid: 9dcee5ae6d1752249b8d7ab37f58339b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2023694319296432264, guid: 9dcee5ae6d1752249b8d7ab37f58339b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3109,7 +3114,7 @@ PrefabInstance:
     - target: {fileID: 5753225643542045607, guid: fc75f2fa82937f84891f78e13d4fdd15,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6698652608467014089, guid: fc75f2fa82937f84891f78e13d4fdd15,
         type: 3}
