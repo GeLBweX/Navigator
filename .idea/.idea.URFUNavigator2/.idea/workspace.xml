@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="028f986d-64b7-4006-b5ff-75a2b6d76b5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.URFUNavigator2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,9 +50,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UiController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +118,7 @@
       <workItem from="1571324434204" duration="3186000" />
       <workItem from="1571329915822" duration="1890000" />
       <workItem from="1571336226075" duration="1829000" />
+      <workItem from="1571990595538" duration="685000" />
     </task>
     <servers />
   </component>
@@ -214,10 +207,10 @@
           <line>32</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" initialLine="23">
             <startOffsets>
-              <option value="783" />
+              <option value="-1" />
             </startOffsets>
             <endOffsets>
-              <option value="783" />
+              <option value="-1" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="24" />

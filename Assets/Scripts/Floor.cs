@@ -42,7 +42,13 @@ public class Floor
 
     public Cell GetClosestStair(Vector3 player)
     {
-        return _stairs.Count > 0 ? _stairs[0] : null;
+		var closestIndex = 0;
+		for (int i = 0; i < _stairs.Count; i++)
+		{
+			if (Vector3.Distance(player, _stairs[i].transform.position) < Vector3.Distance(player, _stairs[closestIndex].transform.position))
+				closestIndex = i;
+		}
+        return _stairs.Count > 0 ? _stairs[closestIndex] : null;
     }
 
     public Transform GetFloorTransform() => _floorTransform;
