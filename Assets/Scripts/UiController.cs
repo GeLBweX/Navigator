@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class UiController : MonoBehaviour
 {
     [SerializeField] private InputField inputField;
+	[SerializeField] MovementController movementController;
     public void ChangeFinal()
     {
-        MovementController.SetFinal(inputField.text);
+		movementController.SetFinal(inputField.text);
     }
 }

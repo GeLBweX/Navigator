@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,18 +10,27 @@ public class MovementController : MonoBehaviour
 	[SerializeField] private Vector3Int finish; //x,y- положение на карте, z - этаж
 	[SerializeField] private Transform player;
 	[SerializeField] private float stepTime;
+	[SerializeField] private float movementSmoothing;
 	[SerializeField] private Vector3Int playerPos;
-	[SerializeField]
+	private Vector3 finalPos;
 	private bool _movingInProcess;
+	private Coroutine movingCoroutine;
+
+	private void StartMoving()
+	{
+		if (movingCoroutine != null)
+			StopCoroutine(movingCoroutine);
+		movingCoroutine = StartCoroutine(MovingRoutine());
+	}
 
 	private void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.E))
-			SetFinal(finish);
-		if (playerPos != _finish && !_movingInProcess)
-		{
-			StartCoroutine(MovingRoutine());
-		}
+		SmoothMovement();
+	}
+
+	private void SmoothMovement()
+	{
+		player.position = Vector3.Lerp(player.position, finalPos, movementSmoothing * Time.deltaTime);
 	}
 
 	private IEnumerator MovingRoutine()
@@ -39,6 +49,7 @@ public class MovementController : MonoBehaviour
 		if (!onSameFloor)
 		{
 			Map.ChangeFloor(_finish);
+			StartMoving();
 		}
 
 		_movingInProcess = false;
@@ -48,6 +59,7 @@ public class MovementController : MonoBehaviour
 	{
 		var point = _fullPath[0];
 		player.position = new Vector3(point.x * Map.CellSize, -point.y * Map.CellSize, player.position.z);
+		finalPos = new Vector3(point.x * Map.CellSize, -point.y * Map.CellSize, player.position.z);
 		playerPos = Map.ConvertGlobalPosToMapPos(player.position, _finish.z);
 		playerPos.y *= -1;
 	}
@@ -67,15 +79,16 @@ public class MovementController : MonoBehaviour
 
 	public static List<Vector3Int> GetPath() => _fullPath;
 
-	public static void SetFinal(Vector3Int pos)
+	public void SetFinal(Vector3Int pos)
 	{
 		_finish = pos;
+		StartMoving();
 	}
 
-	public static void SetFinal(string roomName)
+	public void SetFinal(string roomName)
 	{
 		_finish = Map.GetCell(roomName).GetVector3();
-		print(_finish);
+		StartMoving();
 	}
 
 	public void ChangeSpeed(float changeCount)

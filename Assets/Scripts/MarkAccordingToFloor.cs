@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System.Linq;
+﻿using UnityEngine;
 
 [ExecuteInEditMode]
 public class MarkAccordingToFloor : MonoBehaviour
@@ -16,14 +12,15 @@ public class MarkAccordingToFloor : MonoBehaviour
 	[SerializeField] bool moveCells;
 	private void Update()
 	{
-		childCount = cells.childCount;
+		if (cells)
+			childCount = cells.childCount;
 		if (moveCells)
 			MoveAllCells();
 		if (doIt)
 		{
 			doIt = false;
-			print("DOING IT");		
-   DOIT();
+			print("DOING IT");
+			DOIT();
 		}
 		if (updateAll)
 			UpdateAll();
@@ -44,15 +41,15 @@ public class MarkAccordingToFloor : MonoBehaviour
 		for (int i = 0; i < cells.childCount; i++)
 		{
 			var child = cells.GetChild(i).GetComponent<Cell>();
-			if(child.IsStairs())
+			if (child.IsStairs())
 			{
 				var final = floor.ToString() + " Stairs";
 				child.ChangeName(final);
 			}
-			if (child.GetCellName().Length>1)
+			if (child.GetCellName().Length > 1)
 			{
 				var a = child.GetCellName();
-				var final = "Р-" + floor.ToString() + a.Substring(3);
+				var final = floor.ToString() + a.Substring(1);
 				print(final);
 				child.ChangeName(final);
 			}
