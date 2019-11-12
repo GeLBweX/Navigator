@@ -11,4 +11,9 @@ public class UiController : MonoBehaviour
     {
 		movementController.SetFinal(inputField.text);
     }
+
+	public void ChangeSceneToQRRead()
+	{
+		SceneController.ChangeScene();
+	}
 }

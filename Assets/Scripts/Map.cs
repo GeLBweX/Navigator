@@ -11,6 +11,7 @@ public class Map : MonoBehaviour
     [SerializeField] private float cellSize;
     [SerializeField] private Transform[] floors;
 
+
     private void Awake()
     {
         CellSize = cellSize;
@@ -35,6 +36,7 @@ public class Map : MonoBehaviour
 
     public static Cell GetCell(Vector3Int coord) => _floors[coord.z].GetCellByCoord(coord);
 
+	public static List<Floor> GetFloors() => _floors;
     public static Vector3Int ConvertGlobalPosToMapPos(Vector3 pos, int floor)
     {
         return new Vector3Int(Mathf.RoundToInt (pos.x / Map.CellSize), Mathf.RoundToInt (pos.y / Map.CellSize), floor);

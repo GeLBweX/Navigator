@@ -16,6 +16,11 @@ public class MovementController : MonoBehaviour
 	private bool _movingInProcess;
 	private Coroutine movingCoroutine;
 
+	private void Start()
+	{
+		SetFinal(DataParser.DataFromQRCode);
+	}
+
 	private void StartMoving()
 	{
 		if (movingCoroutine != null)
